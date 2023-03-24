@@ -21,7 +21,6 @@ export class InterestsComponent {
       description:
       'Understanding the mathematical concepts underlying programming',
       },
-      { name: 'Music', description: 'Creating and manipulating digital sounds' },
       {
       name: 'Sports',
       description: 'Managing teams or collecting and analyzing sports data',
