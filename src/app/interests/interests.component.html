@@ -1,0 +1,23 @@
+<div class="detailed-introduction__container">
+  <div class="main-detailed-info__box">
+    <h1 class="main-title">more about me</h1>
+    <h1 class="secondary-title">Hi again! I'm Zouhir Karim.</h1>
+    <p class="secondary-title__p">As you know by now.</p>
+    <br><br><br>
+
+
+<h3>My interests</h3>
+
+
+    
+    <article>
+      <ul>
+        <li *ngFor="let interest of interests">
+          <h3>{{ interest.name }}</h3>
+          <p>{{ interest.description }}</p>
+        </li>
+      </ul>
+      
+    </article>
+  </div>
+</div>
